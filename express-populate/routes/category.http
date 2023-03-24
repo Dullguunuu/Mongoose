@@ -1,0 +1,28 @@
+###
+GET http://localhost:8000/api/category
+
+
+###
+GET http://localhost:8000/api/category/641920f971024203ed458f3a
+
+
+###
+POST http://localhost:8000/api/category
+Content-Type: application/json
+
+{
+  "CategoryName": "Soup Soup"
+}
+
+
+###
+PUT http://localhost:8000/api/category/64191d4a2ff572ceddd1133e
+Content-Type: application/json
+
+{
+  "CategoryName": "Buuz2"
+}
+
+
+###
+DELETE http://localhost:8000/api/category/64191467a9769edcf0656d0e

@@ -1,0 +1,29 @@
+###
+
+POST http://localhost:9000/api/user
+Content-Type: application/json
+
+{
+  "email":"Oyuka4@gmail.com",
+  "password":"qweqwe"
+}
+
+###
+
+POST http://localhost:9000/api/login
+Content-Type: application/json
+
+{
+  "email":"Oyuka4@gmail.com",
+  "password":"qweqwe"
+}
+
+###
+
+POST http://localhost:9000/api/userall
+Content-Type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0MWE3OTQzMTZkMDk3ZTc2NzgyMjk0YiIsImVtYWlsIjoiT3l1a2E0QGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJEFnRkd0TUNQUFpRc3lyZlZjdW8vdHVqRWV3M3k5N3M2Z2ZYVmxpMjdYV1RnTG1HODVPUlh1IiwiX192IjowfSwiaWF0IjoxNjc5NDU3ODU1LCJleHAiOjE2Nzk0NjUwNTV9.zBt65ivK9et8cSvHaW3ikg6jMXCPYaZHfEV29m3XkbQ
+
+
+
+

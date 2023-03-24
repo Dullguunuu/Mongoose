@@ -1,0 +1,26 @@
+###
+GET http://localhost:8000/api/food
+
+
+###
+POST http://localhost:8000/api/food
+Content-Type: application/json
+
+{
+  "foodName": "Meat",
+  "foodPrice": 3400,
+  "categoryId": "641920fb71024203ed458f3c"
+}
+
+
+###
+PUT http://localhost:8000/api/Food/6418e5c4a4e517d0a1522f59
+Content-Type: application/json
+
+{
+  "foodName": "Saladsss"
+}
+
+
+###
+DELETE http://localhost:8000/api/Food/6418e4ffaf505ca3edf2f892
