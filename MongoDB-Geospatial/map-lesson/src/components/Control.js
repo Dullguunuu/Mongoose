@@ -52,7 +52,7 @@ export default function Control() {
   const getDataFromApi = (path) => {
     if (path !== "0") {
       axios
-        .post(`http://localhost:9000/api/${path}`, curLocation)
+        .post(`http://localhost:9001/api/${path}`, curLocation)
         .then((res) => {
           console.log(res.data);
           setData(res.data.result);

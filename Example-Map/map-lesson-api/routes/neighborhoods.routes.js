@@ -7,7 +7,7 @@ route.get("/neighborhoods", neighborhoods.getNeighborhoods);
 route.get("/neighborhoods/:_id", neighborhoods.getNeighborhoodsOne);
 
 route.post("/currentNeighborHood/", neighborhoods.findCurrentNeighborHood);
-// route.post("/findAllRes/", neighborhoods.findAllRestaurantsInNeighborhood);
+route.post("/findAllResInNeighborhood/", neighborhoods.findAllRestaurantsInNeighborhood);
 route.post("/findResInDistance", neighborhoods.findRestaurantsInDistance);
 
 module.exports = route;
